@@ -1,7 +1,7 @@
 # RS256-2-HS256
 JWT Attack to change the algorithm RS256 to HS256
 
-![Alt text](images/banner.jpg "Banner")
+![Alt text](images/banner.PNG "Banner")
 
 ## Usage
 ```
