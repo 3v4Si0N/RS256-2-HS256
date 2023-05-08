@@ -9,7 +9,7 @@ from termcolor import colored
 
 def genPartialJWT(payload):
     encoded_jwt = jwt.encode(json.loads(payload), '', algorithm='HS256')
-    array = ((encoded_jwt).decode('utf-8')).split(".")
+    array = encoded_jwt.split(".")
     partial_jwt = array[0] + "." + array[1]
     return partial_jwt
 
